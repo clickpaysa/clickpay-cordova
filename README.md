@@ -1,10 +1,10 @@
 
-# Cordova PayTabs Plugin
-![Version](https://img.shields.io/badge/Cordova%20PayTabs%20Plugin-v1.3.0-green)
-[![npm](https://img.shields.io/npm/l/cordova-plugin-paytabs.svg)](https://www.npmjs.com/package/cordova-plugin-paytabs/)
-[![npm](https://img.shields.io/npm/dm/cordova-plugin-paytabs.svg)](https://www.npmjs.com/package/cordova-plugin-paytabs)
+# Cordova ClickPay Plugin
+![Version](https://img.shields.io/badge/Cordova%ClickPay%20Plugin-v1.3.0-green)
+[![npm](https://img.shields.io/npm/l/cordova-plugin-ClickPay.svg)](https://www.npmjs.com/package/cordova-plugin-ClickPay/)
+[![npm](https://img.shields.io/npm/dm/cordova-plugin-ClickPay.svg)](https://www.npmjs.com/package/cordova-plugin-ClickPay)
 
-Cordova PayTabs Plugin is a wrapper for the native PayTabs Android and iOS SDKs, It helps you integrate with PayTabs payment gateway.
+Cordova ClickPay Plugin is a wrapper for the native ClickPay Android and iOS SDKs, It helps you integrate with ClickPay payment gateway.
 
 Plugin Support:
 
@@ -14,7 +14,7 @@ Plugin Support:
 # Installation
 
 ```
-$ cordova plugin add com.paytabs.cordova.plugin
+$ cordova plugin add com.clickPay.cordova.plugin
 ```
 
 ### Android - Prerequisites
@@ -183,7 +183,7 @@ function (result) {
 
 ### Pay with Apple Pay
 
-1. Follow the guide [Steps to configure Apple Pay][applepayguide] to learn how to configure ApplePay with PayTabs.
+1. Follow the guide [Steps to configure Apple Pay][applepayguide] to learn how to configure ApplePay with ClickPay.
 
 2. Do the steps 1 and 2 from **Pay with Card** although you can ignore Billing & Shipping details and Apple Pay will handle it, also you must pass the **merchant name** and **merchant identifier**.
 
@@ -341,15 +341,3 @@ Check our complete [sample][sample].
 ## License
 
 See [LICENSE][license].
-
-## PayTabs
-
-[Support][1] | [Terms of Use][2] | [Privacy Policy][3]
-
- [1]: https://www.paytabs.com/en/support/
- [2]: https://www.paytabs.com/en/terms-of-use/
- [3]: https://www.paytabs.com/en/privacy-policy/
- [license]: https://github.com/paytabscom/paytabs-cordova/blob/master/LICENSE
- [applepayguide]: https://github.com/paytabscom/paytabs-cordova/blob/master/ApplePayConfiguration.md
- [sample]: https://github.com/paytabscom/paytabs-cordova/tree/master/sample
-
