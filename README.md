@@ -334,9 +334,8 @@ configuration.alternativePaymentMethods = [cordova.plugins.CordovaPaymentPlugin.
 
 ## Demo application
 
-Check our complete [sample][sample].
+Check our complete [sample](https://github.com/clickpaysa/clickpay-cordova/tree/master/sample).
 
-<img src="https://user-images.githubusercontent.com/13621658/109432386-905e5280-7a13-11eb-847c-63f2c554e2d1.png" width="370">
 
 ## Overriding Resources:
 
