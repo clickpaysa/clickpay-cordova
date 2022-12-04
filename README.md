@@ -99,7 +99,7 @@ cordova.plugins.CordovaPaymentPlugin.startCardPayment(configuration, function (r
     });
 ```
 
-<img width="191" alt="card" src="https://user-images.githubusercontent.com/17829232/188835902-c50f41d1-5e3d-4d4c-a49a-e75b81480b75.png">
+<img width="191" alt="card" src="https://user-images.githubusercontent.com/17829232/205496647-59a35cce-4976-423d-9568-d23f4cea91fc.png">
 
 
 # 2- Pay with Token
@@ -152,7 +152,7 @@ function (result) {
         console.log(error)
     });
 ```
-<img width="197" alt="rec 3ds" src="https://user-images.githubusercontent.com/17829232/188836295-d8d48978-a80f-40d3-bda3-439423fcdec0.png">
+<img width="197" alt="rec 3ds" src="https://user-images.githubusercontent.com/17829232/205496677-3e22a19e-84f4-4200-8c0d-25b9d153b862.png">
 
 
 # 4- Pay with saved card
@@ -178,7 +178,7 @@ function (result) {
         console.log(error)
     });
 ```
-<img width="197" alt="rec 3ds" src="https://user-images.githubusercontent.com/17829232/190152848-bfc83f8c-1a4b-4a55-99ec-af3c22a3de66.png">
+<img width="197" alt="rec 3ds" src="https://user-images.githubusercontent.com/17829232/205496703-b823e57b-348c-4109-9429-ab261e5a5b50.png">
 
 
 ### Pay with Apple Pay
@@ -338,6 +338,75 @@ Check our complete [sample][sample].
 
 <img src="https://user-images.githubusercontent.com/13621658/109432386-905e5280-7a13-11eb-847c-63f2c554e2d1.png" width="370">
 
+## Overriding Resources:
+
+to override fonts Please add your custom fonts files with these names
+
+payment_sdk_primary_font.tff && payment_sdk_secondary_font.tff
+
+to override strings, colors or dimens add the resource you need to override from below resources
+with the value you want
+
+## Theme
+
+Use the following guide to customize the colors, font, and logo by configuring the theme and pass it
+to the payment configuration.
+
+![UI guide](https://user-images.githubusercontent.com/95287975/160391259-97aaff10-cb9f-4103-bc3e-a938a1111128.png)
+
+## Override strings
+
+To override string you can find the keys with the default values here
+[english]( https://github.com/clickpaysa/clickpay-android-library-sample/blob/master/res/strings.xml)
+[arabic](https://github.com/clickpaysa/clickpay-android-library-sample/blob/master/res/strings-ar.xml)
+
+````xml
+
+<resourse>
+    // to override colors
+    <color name="payment_sdk_primary_color">#5C13DF</color>
+    <color name="payment_sdk_secondary_color">#FFC107</color>
+    <color name="payment_sdk_primary_font_color">#111112</color>
+    <color name="payment_sdk_secondary_font_color">#6D6C70</color>
+    <color name="payment_sdk_separators_color">#FFC107</color>
+    <color name="payment_sdk_stroke_color">#673AB7</color>
+    <color name="payment_sdk_button_text_color">#FFF</color>
+    <color name="payment_sdk_title_text_color">#FFF</color>
+    <color name="payment_sdk_button_background_color">#3F51B5</color>
+    <color name="payment_sdk_background_color">#F9FAFD</color>
+    <color name="payment_sdk_card_background_color">#F9FAFD</color>
+
+    // to override dimens
+    <dimen name="payment_sdk_primary_font_size">17sp</dimen>
+    <dimen name="payment_sdk_secondary_font_size">15sp</dimen>
+    <dimen name="payment_sdk_separator_thickness">1dp</dimen>
+    <dimen name="payment_sdk_stroke_thickness">.5dp</dimen>
+    <dimen name="payment_sdk_input_corner_radius">8dp</dimen>
+    <dimen name="payment_sdk_button_corner_radius">8dp</dimen>
+
+</resourse>
+````
+
+
+## See the common issues from here
+
+[common issues](https://github.com/clickpaysa/clickpay-android-library-sample/blob/main/common_issues.md)
+
+## Notes
+
+1- Please configure the IPN to avoid loosing any of the transaction status.
+
+
 ## License
 
 See [LICENSE][license].
+
+## ClickPay
+
+[Support][1] | [Terms of Use][2] | [Privacy Policy][3]
+
+ [1]: https://clickpay.freshdesk.com/en/support/solutions
+ [2]: https://clickpay.com.sa/wps/portal/clickPay/clickpay/footerpages/termsandconditions
+ [3]: https://clickpay.com.sa/wps/portal/clickPay/clickpay/footerpages/privacy
+ [license]: https://github.com/clickpaysa/clickpay-ios-library-sample/blob/main/LICENSE
+
