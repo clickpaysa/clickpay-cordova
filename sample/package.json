@@ -14,11 +14,11 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^10.1.2",
-    "cordova-plugin-clickpay": "file:.."
+    "@clickpay.sa/cordova.plugin.clickpay": "..\\clickpay-cordova"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-clickpay": {}
+      "@clickpay.sa/cordova.plugin.clickpay": {}
     },
     "platforms": [
       "android"
