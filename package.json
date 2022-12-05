@@ -1,6 +1,6 @@
 {
   "name": "@clickpay.sa/cordova.plugin.clickpay",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "ClickPay Cordova Plugin",
   "cordova": {
     "id": "sa.clickpay.cordova.plugin",
