@@ -14,7 +14,7 @@ Plugin Support:
 # Installation
 
 ```
-$ cordova plugin add com.clickPay.cordova.plugin
+$ cordova plugin add '@clickpay.sa/cordova.plugin.clickpay'
 ```
 
 ### Android - Prerequisites
