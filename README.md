@@ -1,6 +1,6 @@
 
 # Cordova ClickPay Plugin
-![Version](https://img.shields.io/badge/Cordova%20ClickPay%20Plugin-v1.3.1-green)
+![Version](https://img.shields.io/badge/Cordova%20ClickPay%20Plugin-v1.3.2-green)
 [![npm](https://img.shields.io/npm/l/cordova-plugin-ClickPay.svg)](https://www.npmjs.com/package/cordova-plugin-ClickPay/)
 [![npm](https://img.shields.io/npm/dm/cordova-plugin-ClickPay.svg)](https://www.npmjs.com/package/cordova-plugin-ClickPay)
 
